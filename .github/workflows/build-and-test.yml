@@ -1,4 +1,4 @@
-name: Run Unit Tests
+name: Build And Test
 
 on:
   push:
@@ -16,5 +16,5 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
       - run: npm ci
-      - run: npm run type-check
+      - run: npm run build
       - run: npm test

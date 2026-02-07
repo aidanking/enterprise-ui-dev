@@ -11,7 +11,6 @@
     "test:accessibility": "vitest accessibility --run",
     "coverage": "vitest --coverage --run",
     "test": "vitest",
-    "type-check": "tsc",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
